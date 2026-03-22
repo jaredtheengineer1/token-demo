@@ -1,0 +1,27 @@
+<!doctype html> 
+  <head> 
+      <style>
+        .button1{ /* App 1 */
+          height: 120px;
+          width: 240px;
+          background-color: blue;
+          font-size: 18px;
+          color: white;
+          font-weight: bold;
+        }
+        .button2{ /* App 3? */
+          height: 120px;
+          width: 240px;
+           background-color: blue;
+          font-size: 18px;
+          color: white;
+          --some-property: 900;
+          font-weight: var(--some-property);
+        }
+      </style>
+  </head>
+  <body>
+    <button class="button1" onclick="alert('button 1 pushed')">Button 1</button>
+    <button class="button2" onclick="alert('button 2 pushed')">Button 2</button>
+  </body>
+</html>
